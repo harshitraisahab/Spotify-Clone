@@ -1,0 +1,135 @@
+
+body{
+    /* color: white;  */
+    background-color: antiquewhite;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: "Audiowide", sans-serif; 
+}
+
+nav ul{
+    color: white;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    background-color: rgb(21, 21, 20);
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+nav ul img{
+    border-radius: 2000px;
+    width: 54px;
+    /* padding: 0 7px; */
+    margin: -31px 9px;
+    padding: 8px -4px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+
+}
+
+/* bottom */
+
+.container{
+    min-height: 50vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 55%;
+    height: 1%;
+    margin: 22px auto;
+    border-radius: 10px;
+    padding: 33px;
+    background-image: url(/save.jpg);
+ 
+}
+
+.bottom{
+    position: sticky;
+    height: 160px;
+    color: white;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    /* margin: 44px -7px;
+    padding: 19px 62px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    margin-top: 13px;
+}
+.icons i{
+    padding: 4px 4px;
+    cursor: pointer;
+}
+
+#progressbar{
+    width: 80vw;
+    text-align: center;
+    /* color: blue; */
+    cursor: pointer;
+    /* margin-top: 22px; */
+}
+
+.songitem{
+    height: 45px;
+    /* padding: 23px 34px; */
+    display: flex;
+    background-color: aliceblue;
+    /* width: 72%; */
+    color: black;
+    margin: 16px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 45px;
+}
+.songitem img{
+    width: 36px;
+    height: 26px;
+    margin: -5px 18px;
+border-radius: 12px;
+}
+.timestamp{
+    margin: 0 23px;
+    /* cursor: pointer; */
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songcontainer{
+    margin-top: 33px;
+}
+.songinfo{
+position: absolute;
+display: flex;
+left: 8vw;
+margin: -48px 14px;
+padding: 8px 10px
+}
+.songinfo img{
+  opacity: 0;
+  /* height: 100%; */
+  transition: opacity 0.5s ease-in;
+}
+.icons p{
+    
+    font-size: 1.3rem;
+    margin-top: 22px;
+}
